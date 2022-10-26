@@ -1,0 +1,155 @@
+    /* MAin Section */
+  .mainz{
+    position: relative;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+  .mainz-topz{
+    display: flex;
+    width: 100%;
+  }
+  .mainz-topz i{
+    position: absolute;
+    right: 0;
+    margin: 10px 30px;
+    /* color: #9754cb; */
+    cursor: pointer;
+  }
+  #choose{
+    /* color:  #9754cb; */
+  }
+  .mainz .usersz{
+    display: flex;
+    width: 100%;
+  }
+   .grid-layout{ 
+
+    display: grid;
+    /* border: 3px solid rgb(70, 35, 35); */
+    
+    grid-template-columns: 50% 50%;
+    width: 100%;
+  } 
+  .one{
+    /* border:5px solid rgb(57, 95, 177); */
+  }
+  .two{
+    /* border:5px solid red; */
+  }
+  .usersz .cardz{
+    /* width: 25%; */
+    margin: 10px;
+    /* background: #fff; */
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  .usersz .cardz img{
+    width: 150px;
+    height: 90px;
+    border-radius: 10%;
+  }
+  .usersz .cardz h4{
+    text-transform: uppercase;
+  }
+  .usersz .cardz p{
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .usersz table{
+    margin:  auto;
+  }
+  .usersz .perz span{
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(223, 223, 223);
+  }
+  .usersz td{
+    font-size: 14px;
+    padding-right: 15px;
+  }
+  .usersz .cardz button{
+    width: 40%;
+    margin-top: 8px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* background:#9754cb ; */
+    /* color: white; */
+    border: 1px solid ;
+  }
+  .usersz .cardz button:hover{
+    background:rgb(100, 100, 100);
+    /* color: #9754cb; */
+    transition: 0.5s;
+  }
+  
+  /* detail  serction  */
+  #confirm{
+    /* color: #9754cb; */
+  }
+  .booking-process{
+    margin-top: 20px;
+    text-transform: capitalize;
+  }
+  .booking-detail{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  .tablez{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+  }
+  table thead tr{
+    /* color: #9754cb; */
+    /* background: rgba(141, 119, 119, 0.1); */
+    text-align: center;
+    font-weight: bold;
+
+  }
+  .booking{
+    text-align: center;
+  }
+  .tablez th,
+  .tablez td{
+    padding: 12px 15px;
+  }
+  .tablez tbody tr{
+    /* border-bottom: 1px solid #ddd; */
+  }
+  .tablez tbody tr:nth-of-type(odd){
+    /* background: #f3f3f3; */
+  }
+  .tablez tbody tr#active{
+    /* font-weight: bold; */
+    /* color: black; */
+  }
+  .tablez tbody tr:last-of-type{
+    border-bottom: 2px solid rgba(100, 100, 100);
+  }
+  .tablez button{
+    padding: 6px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid ;
+  }
+  .tablez button:hover{
+    background: rgb(100, 100, 100);
+    /* color: #fff; */
+    transition: 0.5rem;
+  }
+  .promt-seat{
+
+  }

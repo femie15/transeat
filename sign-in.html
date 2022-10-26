@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/plugins/OwlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/plugins/metismenu/css/metismenu.css">
     <link rel="stylesheet" href="main/css/style.css">
+    <!-- <link rel="stylesheet" href="./main/css/sign.css"> -->
 </head>
 
 <body class="striped-bg theme-3">
@@ -23,7 +24,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/logo-main.webp" alt=""></a>
+                        <a href="index.html"><img src="assets/images/logo-main.web" alt="logo"></a>
                     </div>
                 </div>
             </div>
@@ -48,16 +49,18 @@
                                 <a href="#driver" aria-controls="driver" role="tab" data-toggle="tab">Driver</a>
                             </li>
                         </ul>
-                        
+                       
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="rider">
-                                <form class="mb-4">
+                                <!-- notice    notice    notice  -->
+                                <div data="signInError"></div>
+                                <form class="mb-4"  id="formJs" action ="./ride-with-transeat.html" method ="get">
                                     <div class="form-floating">
-                                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                      <input type="email" class="form-control" id="floatingInput"  placeholder="name@example.com" id="emailJs">
                                       <label for="floatingInput">Email address</label>
                                     </div>
                                     <div class="form-floating">
-                                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" id="passwordJs">
                                       <label for="floatingPassword">Password</label>
                                     </div>
                                 
@@ -69,6 +72,7 @@
                                     <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
                                     
                                   </form>
+                                 
                                 <p class="acclink">Don't have an account? 
                                     <a href="sign-up.html">Sign up
                                         <i class="icofont">double_right</i>
@@ -119,7 +123,7 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="footer-brand">
-                            <a href="index.html"><img src="assets/images/logo.webp" alt="logo"></a>
+                            <a href="index.html"><img src="assets/images/logo.web" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -171,6 +175,7 @@
     <script src="assets/plugins/gmap3/gmap3.min.js"></script>
     <!-- custom scripts -->
     <script src="main/js/scripts.js"></script>
+    <script src="./main/js/sign-in.js"></script>
 
 
 </body>

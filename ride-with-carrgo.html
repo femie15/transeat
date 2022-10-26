@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>CarrGo - Ridesharing Taxi HTML Template</title>
+    <title>Ride With Transeat</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.webp">
@@ -14,48 +14,239 @@
     <link rel="stylesheet" href="assets/plugins/OwlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/plugins/metismenu/css/metismenu.css">
     <link rel="stylesheet" href="main/css/style.css">
+    <link rel="stylesheet" href="./main/css/ride-with-cargo.css">
 </head>
 
 <body class="theme-2">
+    
+    <button type="button" class="nav-toggle-btn a-nav-toggle ms-auto d-block d-lg-none">
+        <span class="nav-toggle nav-toggle-sm">
+            <span class="stick stick-1"id="bar"></span>
+            <span class="stick stick-2"id="bar"></span>
+            <span class="stick stick-3"id="bar"></span>
+        </span>
+    </button>
+  
+    <div class="containerz">
+        <nav class="navz" >
+        <ul class="dashboard1">
+            <li><a href="#" class="logoz">
+            <!-- <img src="./pic/logo.jpg"> -->
+            <span class="navz-item">Hello </span>
+            </a></li>
+            <li><a href="#">
+            <i class="fas fa-menorah"></i>
+            <span class="navz-item">Dashboard</span>
+            </a></li>
+            <li><a href="./index.html">
+            <i class="fas fa-home "></i>
+            <span class="navz-item">Home </span>
+            </a></li>
+            <li><a href="./sign-in.html">
+            <i class="fas fa-sign-in-alt"></i>
+            <span class="navz-item">Sign-in</span>
+            </a></li>
+            <li><a href="./sign-up.html">
+            <i class="fas fa-sign-up-alt"></i>
+            <span class="navz-item">sign-up</span>
+            </a></li>
+            <!-- <li><a href="#">
+            <i class="fas fa-cog"></i>
+            <span class="navz-item">Setting</span>
+            </a></li> -->
+    
+            <!-- <li><a href="#" class="logoutz">
+            <i class="fas fa-sign-out-alt"></i>
+            <span class="nav-item">Log out</span>
+            </a></li> -->
+        </ul>
+        </nav>
 
-    <header class="theme-2">
-        <div class="header__upper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="header__upper--left">
-                            <div class="d-none d-lg-block logo">
-                                <a href="index.html"><img src="assets/images/logo-main.webp" alt="Site Logo"></a>
-                            </div>
-                            <div class="d-block d-lg-none logo w-49px">
-                                <a href="index.html"><img src="assets/images/logo-icon.webp" alt="Site Logo"></a>
-                            </div>
-                            
-                            <button type="button" class="nav-toggle-btn a-nav-toggle ms-auto d-block d-lg-none">
-                                <span class="nav-toggle nav-toggle-sm">
-                                    <span class="stick stick-1"></span>
-                                    <span class="stick stick-2"></span>
-                                    <span class="stick stick-3"></span>
-                                </span>
-                            </button>
-
-                        </div>
+        <!-- select PARK & vehicle  -->
+<section class="mainz">
+    <div class="mainz-topz">
+    <h2 id= "choose"> Choose Park & Vehicle</h2>
+    <!-- <i class="fas fa-user-cog"></i> -->
+    </div>
+                <div class="usersz">
+                    <div class="grid-layout">
+                        <div class="one">
+                <div class="cardz">
+                    <h4>Lagos - Iwo Road</h4>
+                    <img src="./assets/images/project_tvc_hiace-2.png">
+                  
+                    <p>01-Toyota Hiace</p>
+                    <div class="perz">
+                    <table>
+                        <tr>
+                        <td><span>18</span></td>
+                        <td><span>4</span></td>
+                        </tr>
+                        <tr>
+                        <td>Passengers</td>
+                        <td>Available Seats</td>
+                        </tr>
+                    </table>
                     </div>
-                    <div class="d-none d-lg-block col-lg-6">
-                        <div class="header__upper--right">
-                            <nav class="navigation">
-                                <ul>
-                                    <li class="m-0">
-                                        <div class="dropdown">
-                                            <a href="#" class="dropdown-toggle" id="dropdownMenuButton"
+                    <button>Check Amount </button>
+                </div>
+                <div class="cardz">
+                    <h4>Lagos - Challenge</h4>
+                    <img src="./assets/images/project_tvc_hiace-6.png">
+                    
+                    <p>02-Sienna 2010</p>
+                    <div class="perz">
+                    <table>
+                        <tr>
+                        <td><span>8</span></td>
+                        <td><span>2</span></td>
+                        </tr>
+                        <tr>
+                        <td>Passengers</td>
+                        <td>Available Seats</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <button>Check Amount </button>
+                </div>
+            </div>
+            <div class="two">
+                <div class="cardz">
+                  
+                    <h4>Wema - Iwo Road</h4>
+                    <img src="./assets/images/tvc_car15.png">
+                    <p>03Car</p>
+                    <div class="perz">
+                    <table>
+                        <tr>
+                        <td><span>Passengers</span></td>
+                        <td><span>Available Seat</span></td>
+                        </tr>
+                        <tr>
+                        <td>4</td>
+                        <td>4</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <button>Check Amount</button>
+                </div>
+
+        <div class="cardz">
+                    <h4>Lagos-Abuja</h4>
+                    <img src=".">
+                    
+                    <p>04-Luxirious </p>
+                    <div class="perz">
+                    <table>
+                        <tr>
+                        <td><span>Passengers</span></td>
+                        <td><span>Available Seat</span></td>
+                        </tr>
+                        <tr>
+                        <td>50</td>
+                        <td>0</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <button>Not Available</button>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    
+<!-- select vehicle list -->
+<section class="booking-process">
+    <div class="booking-details">
+      <h2 id="confirm">Confirm Request </h2>
+      <p>Payment validates Booking </p>
+      <table class="tablez">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Travelers</th>
+            <th>Time</th>
+            <th>Date</th>
+            <th>Vehicle Plate</th>
+            <th>Amount </th>
+            <th>Payment </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="booking"  class="active">
+            <td>01</td>
+            <td>3</td>
+            <td>3</td>
+            <td>03-24-22</td>
+            <td>KSF-123</td>
+            <td>#9,000</td>
+            <td><button>Pay</button></td>
+          </tr>
+          <!-- <tr class="active">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button></button></td>
+          </tr> -->
+          <!-- <tr>
+            <td>03</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button></button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button>View</button></td>
+          </tr>  -->
+        </tbody>
+        </table>
+        </div>
+</section>
+                     <!-- select vehicle list -->
+    
+    <!-- <header class="theme-2"> -->
+        <!-- <div class="header__upper"> -->
+            <!-- <div class="container"> -->
+                <!-- <div class="row"> -->
+                    <!-- <div class="col-lg-6"> -->
+                        <!-- <div class="header__upper--left"> -->
+                            <!-- <div class="d-none d-lg-block logo"> -->
+                                <!-- <a href="index.html"><img src="assets/images/logo-main.web" alt="Site Logo"></a> -->
+                            <!-- </div> -->
+                            <!-- <div class="d-block d-lg-none logo w-49px"> -->
+                                <!-- <a href="index.html"><img src="assets/images/logo-icon.webp" alt="Site Logo"></a> -->
+                            <!-- </div> -->
+                            
+                            
+
+                        <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="d-none d-lg-block col-lg-6"> -->
+                        <!-- <div class="header__upper--right"> -->
+                            <!-- <nav class="navigation"> -->
+                                <!-- <ul> -->
+                                    <!-- <li class="m-0"> -->
+                                        <!-- <div class="dropdown"> -->
+                                            <!-- <a href="#" class="dropdown-toggle" id="dropdownMenuButton"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <div class="media">
                                                     <div class="media-body">
                                                         <h6 class="m-0">Passenger <i class="fas fa-angle-down"></i></h6>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right"
+                                            </a> -->
+                                            <!-- <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
                                                 <a class="dropdown-item" href="on-ride.html">On Ride</a>
                                                 <a class="dropdown-item" href="passenger-profile.html">Passenger</a>
@@ -63,8 +254,8 @@
                                                 <a class="dropdown-item" href="ride-with-carrgo-booked.html">Ride with Cargo Booked</a>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="m-0">
+                                    </li> -->
+                                    <!-- <li class="m-0">
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" id="dropdownMenuButton"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -79,38 +270,38 @@
                                                 <a class="dropdown-item" href="partner-profile.html">Partner Profile</a>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="m-0">
+                                    </li> -->
+                                    <!-- <li class="m-0">
                                         <div class="dropdown">
                                             <a href="#" class="dropdown-toggle" id="dropdownMenuButton"
                                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <h6 class="m-0">Login <i class="fas fa-angle-down"></i></h6>
+                                                <div class="media"> -->
+                                                    <!-- <div class="media-body">
+                                                        <h6 class="m-0">Login <i class="fas fa-angle-down"></i></h6> -->
                                                         <!-- <p class="m-0">India</p> -->
-                                                    </div>
-                                                </div>
-                                            </a>
+                                                    <!-- </div> -->
+                                                <!-- </div> -->
+                                            <!-- </a>
                                             <div class="dropdown-menu dropdown-menu-right"
                                                 aria-labelledby="dropdownMenuButton">
                                                 <a class="dropdown-item" href="sign-in.html">Sign In</a>
                                                 <a class="dropdown-item" href="sign-up.html">Sign up</a>
                                             </div>
-                                        </div>
-                                    </li>
+                                        </div> -->
+                                    <!-- </li>
                                     <li class="m-0"><a href="contact-us.html">Help</a></li>
                                     <li class="m-0"><a href="contact-us.html"><i class="far fa-envelope"></i></a></li>
                                 </ul>
-                            </nav>
-                            <div class="dropdown">
+                            </nav> -->
+                            <!-- <div class="dropdown">
                                 <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
                                     <div class="media">
-                                        <img height="30" width="30" class="me-3" src="assets/images/partner-img.webp"
+                                        <img height="30" width="30" class="me-3" src="assets/images/partner-img.web"
                                             alt="">
                                         <div class="media-body">
-                                            <h6 class="m-0">John Doe <i class="fas fa-angle-down"></i></h6>
-                                            <p class="m-0">India</p>
+                                            <h6 class="m-0">Damilola Ogundipe <i class="fas fa-angle-down"></i></h6>
+                                            <p class="m-0">Nigeria</p>
                                         </div>
                                     </div>
                                 </a>
@@ -125,45 +316,49 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <section class="responsive-menu">
         <div class="rep-header">
-            <div class="logo">
+            <!-- <div class="logo">
                 <a href="index.html"><img src="assets/images/logo-main.webp" alt="Site Logo"></a>
-            </div>
+            </div> -->
             <a href="#" title="" class="close-menu"><i class="lni lni-close"></i></a>
         </div>
         <div class="navbar-collapse" id="navbarSupportedContent">
             <ul class="mobile-menu navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">
-                        <div class="media">
-                            <img height="30" width="30" class="me-3" src="assets/images/partner-img.webp" alt="">
+                <!-- <li class="nav-item"> -->
+                    <!-- <a class="nav-link" href="index.html"> -->
+                        <!-- <div class="media">
+                            <img height="30" width="30" class="me-3" src="assets/images/partner-img.web" alt="">
                             <div class="media-body">
-                                <h6 class="m-0">John Doe <i class="fas fa-angle-down"></i></h6>
-                                <p class="m-0">India</p>
+                                <h6 class="m-0">Damilola Ogundipe<i class="fas fa-angle-down"></i></h6>
+                                <p class="m-0">Nigeria</p>
                             </div>
-                        </div>
-                        <span class="sr-only">(current)</span>
-                    </a>
-                    <ul>
-                        <li><a class="dropdown-item" href="partner-profile.html">Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </div> -->
+                        <!-- <span class="sr-only">(current)</span> -->
+                    <!-- </a> -->
+                    <!-- <ul> -->
+                        <!-- <li><a class="dropdown-item" href="partner-profile.html">Profile</a></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Sign out</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </li>
+                </li> -->
                 
                 <li class="nav-item">
                     <a class="nav-link" href="#">
                         <div class="media">
                             <div class="media-body">
-                                <h3 class="m-0">Passenger</h3>
+                                <a class="nav-link" href="index.html">
+                                    <i class="fas fa-home"></i>
+                                    Home
+                                    <span class="sr-only">(current)</span>
+                                </a>
                             </div>
                         </div>
                     </a>
-                    <ul>
-                        <li>
+                    <!-- <ul> -->
+                        <!-- <li>
                             <a class="dropdown-item" href="on-ride.html">On Ride</a>
                         </li>
                         <li>
@@ -176,22 +371,22 @@
                             <a class="dropdown-item" href="ride-with-carrgo-booked.html">Ride with Cargo Booked</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="nav-item">
+               <!-- - <li class="nav-item"> 
                     <a class="nav-link" href="#">
                         <div class="media">
                             <div class="media-body">
-                                <h3 class="m-0">Driver</h3>
-                            </div>
+                              <h3 class="m-0">Driver</h3> -->
+                            <!-- </div>
                         </div>
                     </a>
-                    <ul>
-                        <li>
-                            <a class="dropdown-item" href="partner-profile.html">Partner Profile</a>
+                    <ul>  -->
+                        <!-- <li> -->
+                            <!-- <a class="dropdown-item" href="partner-profile.html">Partner Profile</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
                 <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -214,21 +409,21 @@
                 <li class="m-0"><a href="contact-us.html">Help</a></li>
                 <li class="m-0"><a href="contact-us.html"><i class="far fa-envelope"></i></a></li>
             </ul>
-            <div class="header__upper--right flex-column">
+            <!-- <div class="header__upper--right flex-column">
                 <nav class="navigation p-3">
-                    <ul>
+                    <ul> -->
                         <!--<li><a href="ride-with-carrgo.html">Ride</a></li>-->
-                        <li><a href="my-driver-dashboard.html">Driver Dashboard</a></li>
+                        <!-- <li><a href="my-driver-dashboard.html">Driver Dashboard</a></li> -->
                         <!--<li><a href="contact-us.html">Help</a></li>-->
 
-                    </ul>
-                </nav>
-                <a href="sign-up.html" class="button p-3"><i class="far fa-user-astronaut"></i> Drive with
-                    us</a>
-                <a href="ride-with-carrgo.html" class="button p-3" my-2><i class="far fa-taxi"></i> Book a
-                    Ride</a>
-                <div class="p-3 my-lg-0 d-inline-flex">
-                    <a href="sign-in.html" class="button button-light big">Get Started</a>
+                    <!-- </ul> -->
+                <!-- </nav> -->
+                <!-- <a href="sign-up.html" class="button p-3"><i class="far fa-user-astronaut"></i> Drive with -->
+                    <!-- us</a> -->
+                <!-- <a href="ride-with-carrgo.html" class="button p-3" my-2><i class="far fa-taxi"></i> Book a -->
+                    <!-- Ride</a> -->
+                <!-- <div class="p-3 my-lg-0 d-inline-flex"> -->
+                    <!-- <a href="sign-in.html" class="button button-light big">Get Started</a> -->
                 </div>
             </div>
 
@@ -236,17 +431,17 @@
 
     </section>
 
-    <div class="breadcrumb-div">
+    <!-- <div class="breadcrumb-div">
         <div class="container">
             <h1 class="page-title mb-0">Let's Ride</h1>
             <ol class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
-                <li>Ride with Carrgo</li>
+                <li>Ride with Transeat</li>
             </ol>
         </div>
-    </div>
+    </div> -->
 
-    <div class="div-padding our-vehicles-div">
+    <!-- <div class="div-padding our-vehicles-div">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -265,22 +460,22 @@
                             <div class="payment-options-wrapper">
                                 <h2>Payment Method</h2>
                                 <div class="from-group payment-options">
-                                    <div class="form-check form-check-inline">
+                                   <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="payment-opts" id="cash-pay" value="option1">
-                                        <label class="form-check-label" for="cash-pay">Cash</label>
+                                        <label class="form-check-label" for="cash-pay">Fund By Card</label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="payment-opts" id="banking-pay" value="option2">
-                                        <label class="form-check-label" for="banking-pay">Net Banking</label>
+                                        <label class="form-check-label" for="banking-pay">Fund By T</label>
                                     </div>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="payment-opts" id="card-pay" value="option3">
                                         <label class="form-check-label" for="card-pay">Debit Card</label>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="select-car-wrapper">
+                            <!-- <div class="select-car-wrapper">
                                 <h2>Selected Car</h2>
                                 <div class="selected-car">
                                     <div class="from-group car-options">
@@ -352,11 +547,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <footer class="theme-2">
+    <!-- <footer class="theme-2">
 
-        <div class="footer-nav-div div-padding theme-2">
+         <div class="footer-nav-div div-padding theme-2">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -372,17 +567,17 @@
                             <li><a href="#" class="google-p"><i class="fab fa-google-plus-g"></i></a></li>
                             <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-                        </ul>
-                    </div>
+                        </ul> 
+                    </div> 
                     <div class="col-lg-3">
                         <div class="app-download-box">
                             <a href="#"><img src="assets/images/icon/google-play.webp" alt="Google play"></a>
                             <a href="#"><img src="assets/images/icon/apple-store.webp" alt="Apple store"></a>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div class="copyright-div theme-2">
             <div class="container">
@@ -400,7 +595,8 @@
             </div>
         </div>
 
-    </footer>
+    </footer> -->
+
 
 
 
