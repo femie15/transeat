@@ -104,18 +104,18 @@
                                 </ul>
                             </nav>
                             <div class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                                <!-- <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    <div class="media">
+                                    <div class="media"> -->
                                         <!-- <img height="30" width="30" class="me-3" src="assets/images/partner-img.webp"
                                             alt=""> -->
-                                        <div class="media-body">
-                                            <h6>Welcome</h6>
+                                        <!-- <div class="media-body"> -->
+                                            <!-- <h6>Welcome</h6> -->
                                           <!-- <h6 class="m-0">John Doe <i class="fas fa-angle-down"></i></h6>  -->
                                             <!-- <p class="m-0">India</p>  -->
-                                        </div>
-                                    </div>
-                                </a>
+                                        <!-- </div> -->
+                                    <!-- </div> -->
+                                <!-- </a> -->
                                 <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="partner-profile.html">Profile</a> 
                                     <a class="dropdown-item" href="#">Sign out</a>
@@ -139,17 +139,17 @@
         <div class="navbar-collapse" id="navbarSupportedContent">
             <ul class="mobile-menu navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
-                        <div class="media">
+                    <!-- <a class="nav-link" href="index.html">
+                        <div class="media"> -->
                             <!-- <img height="30" width="30" class="me-3" src="assets/images/partner-img.webp" alt=""> -->
-                            <div class="media-body">
-                                Welcome
+                            <!-- <div class="media-body"> -->
+                                <!-- Welcome -->
                                 <!-- <h6 class="m-0">John Doe <i class="fas fa-angle-down"></i></h6>
                                 <p class="m-0">India</p> -->
-                            </div>
-                        </div>
+                            <!-- </div> -->
+                        <!-- </div> -->
                         <!-- <span class="sr-only">(current)</span> -->
-                    </a>
+                    <!-- </a> -->
                     <!-- <ul>
                         <li><a class="dropdown-item" href="partner-profile.html">Profile</a></li>
                         <li><a class="dropdown-item" href="#">Sign out</a></li>
@@ -265,14 +265,15 @@
                             <div class="cardz">
                                 <div class="plane">
                                     <div class="cockpit">
-                                      <h2 style="font-size: medium;">02- Select  Seat</h2>
+                                      <h2 style="font-size: medium;">Select Seat</h2>
                                     </div>
                                   
                                     <ol class="cabin fuselage">
                                       <li class="row row--1">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                              
+
+                                            <form name="listForm"> 
                                              <input type="checkbox" disable id="1A" /> 
                                             <!-- <label style="color: white; background-color: green;" for="1A">Driver</label> -->
                                           </li>
@@ -309,8 +310,8 @@
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="1E"/>
-                                            <label for="1E">1</label>
+                                            <input type="checkbox" name="choice" value=" 5000" onchange="checkTotal()"id="2C"/> 
+                                            <label for="2C">1</label>
                                           </li>
                                         </ol>
                                       </li>
@@ -336,17 +337,17 @@
                                       <li class="row row--4">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                            <input type="checkbox" id="4A" />
+                                            <input type="checkbox" name="choice" value=" 5000" onchange="checkTotal()"id="4A"/> 
                                             <label for="4A">2A</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="4B" />
+                                            <input type="checkbox" name="choice" value=" 5000" onchange="checkTotal()"id="4B"/> 
                                             <label for="4B">2B</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="4C" />
+                                            <input type="checkbox" name="choice" value=" 5000" onchange="checkTotal()"id="4C"/> 
                                             <label for="4C">2C</label>
                                           </li>
                                         </ol>
@@ -392,7 +393,7 @@
                   <table class="tablez">
                     <thead>
                       <tr>
-                        <th>ID</th>
+                        <th>Vehicle</th>
                         <th>Seat</th>
                         <th>Time</th>
                         <th>Date</th>
@@ -403,16 +404,17 @@
                     </thead>
                     <tbody>
                       <tr class="booking"  id="active">
-                        <td>02</td>
+                        <td></td>
                         <td>2A</td>
                         <td>10am</td>
                         <td>03-24-22</td>
                         <!-- <td>KSF-123</td> -->
-                        <td>#4,000</td>
-                        <td><button>Pay</button></td>
+                        <td><input name="total" size ="4" value="&#8358; 0"disabled></td>
+                        <td><button>Pay</button></td>  
                       </tr>
                     </tbody>
                     </table>
+                    </form>
                     </div> 
                     </section>
                 </div>
@@ -465,7 +467,7 @@
                                         </div>
                                         <div class="form-check form-check-inline">
                                             <input checked class="form-check-input" type="radio" name="car-opts" id="alto" value="option2">
-                                            <label class="form-check-label" for="alto">
+                                            <label  class="form-check-label" for="alto">
                                                 <img src="assets/images/dashboard/car-2.webp" alt="Car">
                                             </label>
                                             <div class="car-details">
@@ -713,6 +715,7 @@
     <script src="assets/plugins/gmap3/gmap3.min.js"></script>
     <!-- custom scripts -->
     <script src="main/js/scripts.js"></script>
+    <script src="./main/js/car-seat.js"></script>
 
 
 </body>

@@ -104,18 +104,18 @@
                                 </ul>
                             </nav>
                             <div class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                    <div class="media">
+                                <!-- <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"> -->
+                                    <!-- <div class="media"> -->
                                         <!-- <img height="30" width="30" class="me-3" src="assets/images/partner-img.webp"
                                             alt=""> -->
-                                        <div class="media-body">
-                                            <h6>Welcome</h6>
+                                        <!-- <div class="media-body"> -->
+                                            <!-- <h6>Welcome</h6> -->
                                           <!-- <h6 class="m-0">John Doe <i class="fas fa-angle-down"></i></h6>  -->
                                             <!-- <p class="m-0">India</p>  -->
-                                        </div>
-                                    </div>
-                                </a>
+                                        <!-- </div> -->
+                                    <!-- </div> -->
+                                <!-- </a> -->
                                 <!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="partner-profile.html">Profile</a> 
                                     <a class="dropdown-item" href="#">Sign out</a>
@@ -139,17 +139,17 @@
         <div class="navbar-collapse" id="navbarSupportedContent">
             <ul class="mobile-menu navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
-                        <div class="media">
+                    <!-- <a class="nav-link" href="index.html"> -->
+                        <!-- <div class="media"> -->
                             <!-- <img height="30" width="30" class="me-3" src="assets/images/partner-img.webp" alt=""> -->
-                            <div class="media-body">
-                                Welcome
+                            <!-- <div class="media-body"> -->
+                                <!-- Welcome -->
                                 <!-- <h6 class="m-0">John Doe <i class="fas fa-angle-down"></i></h6>
                                 <p class="m-0">India</p> -->
-                            </div>
-                        </div>
+                            <!-- </div> -->
+                        <!-- </div> -->
                         <!-- <span class="sr-only">(current)</span> -->
-                    </a>
+                    <!-- </a> -->
                     <!-- <ul>
                         <li><a class="dropdown-item" href="partner-profile.html">Profile</a></li>
                         <li><a class="dropdown-item" href="#">Sign out</a></li>
@@ -243,7 +243,7 @@
         <div class="container">
             <h1 class="page-title mb-0">Ride Booked</h1>
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="./home.html">Home</a></li>
                 <li>Ride with Transeat </li>
             </ol>
         </div>
@@ -265,34 +265,34 @@
                             <div class="cardz">
                                 <div class="plane">
                                     <div class="cockpit">
-                                      <h2 style="font-size: medium;">01- Select  Seat</h2>
+                                      <h2 style="font-size: medium;">Select  Seat</h2>
                                     </div>
                                   
                                     <ol class="cabin fuselage">
                                       <li class="row row--1">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                              
+                                            <form name="listForm">
                                              <input type="checkbox" disable id="1A" /> 
                                             <label style="color: white; background-color: green;" for="1A">&nbsp;Driver</label>
                                           </li>
                                           <li class="seat">
-                                             <!-- <input type="checkbox" id="1B" /> -->
-                                            <!--<label for="1B">1B</label>  -->
+                                             <input type="checkbox" id="1B" />
+                                            <!-- <label for="1B">1B</label>  -->
                                           </li>
                                            <li class="seat">
-                                             <input type="checkbox"id="1C" />
-                                             <label for="1C">1B</label> 
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="1C"/> 
+                                             <label for="1C">1A</label> 
                                           </li> 
                                           
                                           <li class="seat">
-                                            <!-- <input type="checkbox" id="1E" /> -->
+                                            <input type="checkbox" id="1E" />
                                             <!-- <label for="1E">1</label> -->
                                           </li>
-                                          &emsp;
+                                         
                                           <li class="seat">
-                                            <input type="checkbox" id="1F" />
-                                            <label for="1F">1C</label>
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="1F"/> 
+                                            <label for="1F">1B</label>
                                           </li>
                                         </ol>
                                       </li>
@@ -300,18 +300,18 @@
                                       <li class="row row--2">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                            <input type="checkbox" id="2A" />
+                                            <input type="checkbox" name="choice" value="3000" onchange="checkTotal()" id="2A" />
                                             <label for="2A">2A</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="2B" />
+                                            <input type="checkbox" name="choice" value="3000" onchange="checkTotal()" id="2B" />
                                             <label for="2B">2B</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="1E"/>
-                                            <label for="1E">2C</label>
+                                            <input type="checkbox" name="choice" value="3000" onchange="checkTotal()" id="2C" />
+                                            <label for="2C">2C</label>
                                           </li>
                                         </ol>
                                       </li>
@@ -319,17 +319,17 @@
                                       <li class="row row--3">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                            <input type="checkbox" id="3A" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="3A"/> 
                                             <label for="3A">3A</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="3B" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="3B"/> 
                                             <label for="3B">3B</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="3C" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="3C"/> 
                                             <label for="3C">3C</label>
                                         </ol>
                                       </li>
@@ -337,17 +337,17 @@
                                       <li class="row row--4">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                            <input type="checkbox" id="4A" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="4A"/> 
                                             <label for="4A">4A</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="4B" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="4B"/> 
                                             <label for="4B">4B</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="4C" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="4C"/> 
                                             <label for="4C">4C</label>
                                           </li>
                                         </ol>
@@ -356,18 +356,18 @@
                                       <li class="row row--5">
                                         <ol class="seats" type="A">
                                           <li class="seat">
-                                            <input type="checkbox" id="5A" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="5A"/> 
                                             <label for="5A">5A</label>
                                           </li>
                                           <li class="seat"></li>
                                           
                                           <li class="seat">
-                                            <input type="checkbox" id="5B" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="5B"/> 
                                             <label for="5B">5B</label>
                                           </li>
                                           <li class="seat"></li>
                                           <li class="seat">
-                                            <input type="checkbox" id="5C" />
+                                            <input type="checkbox" name="choice" value=" 3000" onchange="checkTotal()"id="5C"/> 
                                             <label for="5C">5C</label>
                                           </li>
                                         </ol>
@@ -393,7 +393,7 @@
                   <table class="tablez">
                     <thead>
                       <tr>
-                        <th>ID</th>
+                        <th>Vehicle </th>
                         <th>Seat</th>
                         <th>Time</th>
                         <th>Date</th>
@@ -404,17 +404,18 @@
                     </thead>
                     <tbody>
                       <tr class="booking"  id="active">
-                        <td>01</td>
+                        <td>Bus</td>
                         <td>2B, 2C</td>
                         <td>10am</td>
                         <td>03-24-22</td>
                         <!-- <td>KSF-123</td> -->
-                        <td>#6,000</td>
+                        <td><input name="total" size ="4" value="&#8358; 0"disabled></td>
                         <td><button>Pay</button></td>
                       </tr>
                     </tbody>
                     </table>
                     </div> 
+                </form>
                     </section>
                 </div>
                  <!-- end of added booking details added -->
@@ -714,6 +715,8 @@
     <script src="assets/plugins/gmap3/gmap3.min.js"></script>
     <!-- custom scripts -->
     <script src="main/js/scripts.js"></script>
+    <script src="./main/js/car-seat.js"></script>
+
 
 
 </body>
